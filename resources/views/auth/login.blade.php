@@ -24,6 +24,7 @@
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
 
+<<<<<<< HEAD
         {{-- Captcha --}}
         <div class="form-group mb-20">
             <label for="username">Captca</label>
@@ -33,6 +34,8 @@
             <input type="text" name="captcha" class="form-control" id="captcha" placeholder="Captca">
         </div>
 
+=======
+>>>>>>> a35c8b6cb6887b38b87306b3421e658844279828
         <!-- Remember Me -->
         <div class="block mt-4">
             <label for="remember_me" class="inline-flex items-center">
